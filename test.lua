@@ -101,7 +101,7 @@ function SelectGroups()
             end
         end
         
-        local teams = {["blue"] = {["players"] = blue}, ["red"] = {["players"] = red} }
+        local teams = { ["blue"] = {["players"] = blue}, ["red"] = {["players"] = red} }
 
         print(json.encode(teams))
     end)
